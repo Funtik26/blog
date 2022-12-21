@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
+name: Vlada Rusina
+avatar: /static/images/bw.jpg
+occupation: journalist, copywriter, technical writer
+company: JSC Echelon
+email: vladarusina@gmail.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
-github: https://github.com
+github: https://github.com/Funtik26
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Welcome to my blog! 
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I had worked as a journalist in an independent mass media entity for 15 years, but twelve months ago, I decided to have a go in technical writing, got a job in an information security company. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Here I am going to share guides, tips, reviews, analytical notes, and my thoughts on cutting-edge trends in the world of technologies. Hope to convert sophisticated information into something readable.
