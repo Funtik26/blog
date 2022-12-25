@@ -1,13 +1,14 @@
+---
 title: How does browser fingerprinting affect your life? 
 date: '2022-12-25'
 tags: ['fingerprinting', 'privacy', 'tips']
 draft: false
-summary: A short guide 
+summary: A short guide on how does browser fingerprinting affect your life.
 images: []
 layout: PostLayout
 ---
 
-# How does browser fingerprinting affect your life? #
+# How does browser fingerprinting affect your life?
 
 * What does ‘browser fingerprint’ mean?
 * What data about you is collected?
@@ -24,7 +25,7 @@ Developed for good reasons such as detecting fraudulent traffic and preventing i
 
 _Even if you can’t fully protect yourself from the risks, I’m sure that everyone should be aware of possible consequences and handle their data more carefully._
 
-## What data about you is collected? ##
+## What data about you is collected?
 
 * User agent – a line of text, which identifies your browser and OS versions to the website.
 * Device model and specific information about it such as graphic card, graphic driver, CPU, GPU (in case you do not have a dedicated graphic card).
@@ -41,7 +42,7 @@ _Even if you can’t fully protect yourself from the risks, I’m sure that ever
 
 You can test how it works [here](https://www.deviceinfo.me).
 
-## How can websites’ owners use the information about you? ##
+## How can websites’ owners use the information about you?
 
 Primarily, browser fingerprinting helped users to get the right version of websites optimized for their devices (computer, tablet, or phone).
 
@@ -51,7 +52,7 @@ Besides, browser fingerprints can provide law enforcement agencies with forensic
 
 Here we see how browser fingerprinting serves your convenience and security. However, the same technology allows websites’ owners to speculate with your personal data, as aforesaid. High-traffic sites can sell fingerprints to advertisers for showing you unwanted targeted ads. Besides, loads of sites with built-in components of advertising and analytical services collect fingerprints to abuse customers by imposing goods. The technology allows promoting political messaging as well. Unfortunately, for these purposes browser fingerprinting is widely used. Moreover, some websites practice aggressive (or user-hostile) fingerprinting, which means they gather far too excessive information definitely for no good purposes.
 
-## What can I do to protect myself from fingerprinting? ##
+## What can I do to protect myself from fingerprinting?
 
 First, let’s get one thing clear – no one can’t fully protect themselves from browser fingerprinting, but here are some tips which will help to make your fingerprint not so unique.
 
