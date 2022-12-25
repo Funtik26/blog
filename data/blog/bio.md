@@ -1,5 +1,11 @@
-Vlada Rusina
-journalist, copywriter, technical writer
+title: Welcome to my blog! 
+date: '2022-12-20'
+tags: ['personal']
+draft: false
+summary: Welcome to my blog! 
+images: []
+layout: PostLayout
+---
 
 Welcome to my blog! 
 
