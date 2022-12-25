@@ -1,3 +1,4 @@
+---
 title: Welcome to my blog! 
 date: '2022-12-20'
 tags: ['personal']
@@ -6,6 +7,9 @@ summary: Welcome to my blog!
 images: []
 layout: PostLayout
 ---
+
+Vlada Rusina
+journalist, copywriter, technical writer
 
 Welcome to my blog! 
 
