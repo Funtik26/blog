@@ -12,8 +12,8 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@vladarusina.com',
   github: 'https://github.com/Funtik26',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
+  twitter: 'https://twitter.com/vladarusina',
+  facebook: 'https://facebook.com/',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
   locale: 'en-US',
@@ -41,9 +41,9 @@ const siteMetadata = {
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
-      repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
+      repo: 'Funtik26/blog',
       repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
-      category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY,
+      category: 'General',
       categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
       mapping: 'pathname', // supported options: pathname, url, title
       reactions: '1', // Emoji reactions: 1 = enable / 0 = disable
