@@ -2,7 +2,6 @@
 name: Vlada Rusina
 avatar: /static/images/bw.jpg
 occupation: journalist, copywriter, technical writer
-company: JSC Echelon
 email: vladarusina@gmail.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com
