@@ -8,8 +8,6 @@ images: []
 layout: PostLayout
 ---
 
-# Will ChatGPT be as significant as writing 4000 BC?
-
 The frenzy about revolutionary text models raises concerns about the future. First, ChatGPT 3 was trained with 175 billion parameters. Then Baidu announced the EARNIE bot that operates with 260 billion input parameters. Ultimately, ChatGPT 4 [is predicted to have 10 trillions parameters](https://www.forbes.com/sites/robtoews/2022/12/20/10-ai-predictions-for-2023/?sh=8669cdbfab7f) and it might become not just a text-only model, but be multimodal. This amount is close to the situation when AI absorbs all the information existing on the internet, which includes texts, pictures, and videos. Hence we are about to run out of data that can be provided to deep learning models. Some researchers are bold enough to assume it can even approach the conception of artificial general intelligence (AGI). We can speculate a lot, but what’s obvious is that it is a game changer. For contemporary history, ChatGPT may have the same significance and bring the same opportunities as writing did for ancient civilizations.
 
 4000 BC, when the first cities began to appear with their density of population up to tens of thousands of people, ancient leaders would come to a completely new challenge: how to rule all these people? How to let them know about important decisions and laws? How to keep citizens fed up and safe? How to memorize all the deals with neighbours? Ultimately, how to make people act like members of a united community? Spoken language was not enough to carry these vital messages.
