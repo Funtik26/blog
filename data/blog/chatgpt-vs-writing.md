@@ -8,9 +8,9 @@ images: []
 layout: PostLayout
 ---
 
-```
 ![writing](/static/images/chatgpt-vs-writing-image.jpg)
-```
+Photo by Egor Myznik. [^1]
+
 
 The frenzy about revolutionary text models raises concerns about the future. First, ChatGPT 3 was trained with 175 billion parameters. Then Baidu announced the EARNIE bot that operates with 260 billion input parameters. Ultimately, ChatGPT 4 [is predicted to have 10 trillions parameters](https://www.forbes.com/sites/robtoews/2022/12/20/10-ai-predictions-for-2023/?sh=8669cdbfab7f) and it might become not just a text-only model, but be multimodal. This amount is close to the situation when AI absorbs all the information existing on the internet, which includes texts, pictures, and videos. Hence we are about to run out of data that can be provided to deep learning models. Some researchers are bold enough to assume it can even approach the conception of artificial general intelligence (AGI). We can speculate a lot, but what’s obvious is that it is a game changer. For contemporary history, ChatGPT may have the same significance and bring the same opportunities as writing did for ancient civilizations.
 
@@ -29,3 +29,6 @@ At this point, many people consider AI expansion rather dubious. Lack of trust i
 What we have already been experiencing is loads of AI generated content (AIGC), which inundated TikTok, Twitter and many other sources on the internet so that we can’t distinguish between AI-generated and human-made videos or texts. It undermines our confidence, makes us question the nature of reality, and incites fear of losing something vital. What sort of information do we consume? What hidden agenda is promoted in those funny videos or entertaining articles? It is only exacerbated with commercial temptation of big companies, non-state actors or governments’ attempts to promote their narratives. Obviously, it will take decades for regulators to catch up with new technologies and establish proper control over them. [A Taiwanese computer scientist Kai-Fu Lee considers 50% of the outcome of AI to be negative](https://www.youtube.com/watch?v=JGiLz_Jx9uI&t=11510s), which is quite off-putting in this technology.
  
 In the light of this information, should we delegate chat-bots the power of writing and will real AI be a good version of Skynet? As the old proverb says, the pen is mightier than a sword.
+
+[^1]: Photo by [Egor Myznik](https://unsplash.com/@vonshnauzer) on [Unsplash](https://unsplash.com/photos/of_azYsANQY)
+
