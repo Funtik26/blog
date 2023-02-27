@@ -1,7 +1,7 @@
 ---
 title: Will ChatGPT be as significant as writing 4000 BC? 
 date: '2023-02-19'
-tags: ['AI', 'ChatGPT']
+tags: ['ai', 'chatgpt']
 draft: false
 summary: A short journey back to our past may draw some parallels with our future.
 images: []
