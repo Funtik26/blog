@@ -45,6 +45,7 @@
     "unist-util-visit": "^4.1.2"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@svgr/webpack": "^6.5.1",
     "cross-env": "^7.0.3",
     "dedent": "^0.7.0",
