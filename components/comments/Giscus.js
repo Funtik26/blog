@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { useTheme } from 'next-themes'
+import { useTheme } from '@wits/next-themes'
 
 import siteMetadata from '@/data/siteMetadata'
 
@@ -28,6 +28,7 @@ const Giscus = () => {
       metadata,
       inputPosition,
       lang,
+      // eslint-disable-next-line no-unsafe-optional-chaining
     } = siteMetadata?.comment?.giscusConfig
 
     const script = document.createElement('script')
