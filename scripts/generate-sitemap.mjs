@@ -1,9 +1,8 @@
 import * as fs from 'fs'
 import { globby } from 'globby'
-import matter  from 'gray-matter';
-import config from 'prettier';
+import matter from 'gray-matter'
+import config from 'prettier'
 import * as siteMetadata from '../data/siteMetadata.js'
-
 ;(async () => {
   const prettierConfig = await config.resolveConfig('./.prettierrc.js')
   const pages = await globby([
