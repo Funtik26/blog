@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Vlada Rusina blog on technical writing',
+  title: "Vlada Rusina's technical blog",
   author: 'Vlada Rusina',
   headerTitle: 'VladaRusina.com',
-  description: 'Vlada Rusina blog on technical writing',
+  description: "Vlada Rusina's technical blog",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://vladarusina.com',
