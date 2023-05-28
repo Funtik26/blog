@@ -1,8 +1,8 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
-
-import '@fontsource/inter/variable-full.css'
+// Supports weights 100-900
+import '@fontsource-variable/inter'
 
 // import { Analytics } from '@vercel/analytics/react'
 
