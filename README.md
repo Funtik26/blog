@@ -7,4 +7,5 @@ This is a personal blog by Vlada Rusina build with [Next.js](https://nextjs.org/
 
 ## Licence
 
+
 [MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/master/LICENSE) © [Timothy Lin](https://www.timlrx.com)
