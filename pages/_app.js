@@ -8,7 +8,7 @@ import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 
 import siteMetadata from '@/data/siteMetadata'
-import Analytics from '@/components/analytics'
+import { Analytics } from '@vercel/analytics/react'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
