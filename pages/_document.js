@@ -23,6 +23,13 @@ class MyDocument extends Document {
           <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          {(process.env.NODE_ENV === 'development' || process.env.VERCEL_ENV === 'preview') && (
+            // eslint-disable-next-line @next/next/no-sync-scripts
+            <script
+              data-project-id="haGROHX6UmAJDbsJvSdbWvQ0ktR9MKYtTAztlZRD"
+              src="https://snippet.meticulous.ai/v1/stagingMeticulousSnippet.js"
+            />
+          )}
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
