@@ -7,7 +7,9 @@ The first doubt crept into my mind after I had read numerous feedbacks from rece
 Mistakes and tips
  
 №1
+
 Mistake: I fell for hedging language. 
+
 Tip: Never underrate Russian tutors when it comes to the preparation for international exams.
  
 English learners are usually aware of hedging language – a specific way of forming utterances in English so as not to offend the person on the other end. To natives, directness sounds rude and aggressive. If your teacher preparing you for the test is a native speaker, be prepared to profuse encouragement, but don’t take it literally. Where you find praise, it may just be hedging language, whereas in fact your skills could not be perfect. This is exactly what happened to me. I was confused by the plethora of encouragement I had received from my native speaker coach. In retrospect, however, I understand that he had never told me I would get an 8.
@@ -19,6 +21,7 @@ Besides, there are few true professionals among native speakers in the internet 
 №2
  
 Mistake: I was complacent, because I had studied up loads of books and podcasts.
+
 Tip: Study the scores of other students who have already passed IELTS.
  
 Scrutinising the results of other students who have already taken IELTS can be a cue to identifying traps and pitfalls that may have evaded your attention. Probably, the first regularity you will notice that the bulk of candidates fail their writing part. You think it's because they haven’t prepared well enough? You reckon you'll do better? Then you might want to reread the current paragraph.
@@ -26,6 +29,7 @@ Scrutinising the results of other students who have already taken IELTS can be a
 №3
  
 Mistake: I pinned all my hopes on my teacher.
+
 Tip: Take the trouble to check the exam requirements on the IDP IELTS or British Council websites.
  
 No matter how outstanding your tutor is, make an effort to read the assessment criteria on the websites of IDP IELTS or British Council – the exam official partners of the University of Cambridge. Sometimes when you find the same information on your own, it sort of sticks to you better. You may also get a better perspective on it, which could prove useful. Yes, delving into IELTS assessment methodology can be excruciatingly boring, but trust me, it will pay off in the exam.
