@@ -1,0 +1,73 @@
+---
+title: How does browser fingerprinting affect your life?
+date: '2022-12-25'
+tags: ['fingerprinting', 'privacy', 'tips']
+draft: false
+summary: A short guide on how does browser fingerprinting affect your life.
+images: []
+layout: PostLayout
+---
+
+# How does browser fingerprinting affect your life?
+
+- What does ‘browser fingerprint’ mean?
+- What data about you is collected?
+- How can websites’ owners use the information about you?
+- What can I do to protect myself from browser fingerprinting?
+
+## What does ‘browser fingerprint’ mean?
+
+Any person can be almost unmistakably identified by their browser fingerprint. This term means a large amount of data about your computer, which websites collect every time you download them. The gathered data includes dozens of parameters such as time zone, geolocation, language, list of browser extensions, information about your operating system, hardware etc. Based on this data, websites assign each user a unique ID, which allows them to recognize you at any time.
+
+A browser fingerprint is not cookies. While websites ask if you want to share cookies, they never warn you about browser fingerprinting.
+
+Developed for good reasons such as detecting fraudulent traffic and preventing identity thefts and fraud with payment cards, this technology does not always serve users’ interests. In fact, it mostly works against users, violates their privacy and abuses personal data. Loads of information collected without your consent at least can be used for advertising purposes, but at worst - for scheming on the internet or tracking you.
+
+_Even if you can’t fully protect yourself from the risks, I’m sure that everyone should be aware of possible consequences and handle their data more carefully._
+
+## What data about you is collected?
+
+- User agent – a line of text, which identifies your browser and OS versions to the website.
+- Device model and specific information about it such as graphic card, graphic driver, CPU, GPU (in case you do not have a dedicated graphic card).
+- Timezone.
+- Installed fonts.
+- IP-address and location up to GPS-coordinates.
+- Device orientation (if your device is equipped with a gyroscope).
+- Screen resolution and its depth.
+- Browser extentions.
+- Browsing history.
+- Accounts logged in.
+- Mouse position.
+- Supercookies – trackers collecting information about your habits and preferences on the internet, for example when and what websites you tend to visit. Supercookies keep on analysing data even when you switch between different browsers. Supercookies can pick information from cookies and keep it after you delete cookies. You can decline sharing cookies or delete them by clearing your browser, but you can’t get rid of supercookies, which are difficult to detect as many of them do not exist on your device.
+
+You can test how it works [here](https://www.deviceinfo.me).
+
+## How can websites’ owners use the information about you?
+
+Primarily, browser fingerprinting helped users to get the right version of websites optimized for their devices (computer, tablet, or phone).
+
+Further, the technology expanded for more purposes, such as detecting fraud and botnets. It checks whether the user is the one he claims to be. Thus, websites verify your identity without making you do any additional actions. This is usually used by banks in their online services: since they have recognised your unique browser fingerprint, they do not send you a secure code on your phone because they already know that it is you who is trying to make a transaction. In case you try to pay with your card from an unusual device or browser, you will have an unfamiliar fingerprint, and the bank will send you a notification. That means if an adversary has stolen your payment data, he won’t be able to use it.
+
+Besides, browser fingerprints can provide law enforcement agencies with forensics. For example, a fraudster has two accounts on Google (or Facebook or whatever else) and logs in in one browser. From one account he sends fishing letters, the other he uses for personal aims is legal. Google collects his browser fingerprints. Even if the fraudster is tech-savvy and experiences private browsing or VPN, Google will gather his user-agent and some other data, which allows the system to recognise the same person. When police send a request to Google to get information about the alleged fraudster, Google passes on data about all accounts related to him. In this case, we see that though the technology itself can’t disclose someone’s identity (it just builds up unique and recognizable profiles), anyway a user’s name can be revealed under certain circumstances.
+
+Here we see how browser fingerprinting serves your convenience and security. However, the same technology allows websites’ owners to speculate with your personal data, as aforesaid. High-traffic sites can sell fingerprints to advertisers for showing you unwanted targeted ads. Besides, loads of sites with built-in components of advertising and analytical services collect fingerprints to abuse customers by imposing goods. The technology allows promoting political messaging as well. Unfortunately, for these purposes browser fingerprinting is widely used. Moreover, some websites practice aggressive (or user-hostile) fingerprinting, which means they gather far too excessive information definitely for no good purposes.
+
+## What can I do to protect myself from fingerprinting?
+
+First, let’s get one thing clear – no one can’t fully protect themselves from browser fingerprinting, but here are some tips which will help to make your fingerprint not so unique.
+
+1. Download user-friendly browsers, for example, Mozilla Firefox, which considers privacy fundamental and declares it as core to the Mozilla team. Thus, Firefox [blocks](https://blog.mozilla.org/security/2021/06/01/total-cookie-protection-in-private-browsing/) many fingerprint scripts, cross-sites tracking, and [supercookies](https://blog.mozilla.org/security/2021/01/26/supercookie-protections/).
+
+Surprisingly, some well-known browsers turn out to be not as private as they claim. In May 2022, it came to the public eye that DuckDuckGo made a questionable deal with Microsoft and stopped blocking tech’s trackers, which was discovered by a researcher.
+
+2. Use anti-fingerprinting extensions, such as [User-agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/?src=gitlab) or any other.
+
+3. Disable Flash and JavaScript in your browser, though it may disable some functions on many websites.
+
+4. While using TOR-browser never change the default browser window size.
+
+There are also sophisticated solutions such as using TOR browser without the TOR network, using a virtual machine, using burner devices instead of regular smartphones, and separating private life from online. However, you may find all of these difficult to implement. Mind the measures that do not work against browser fingerprinting:
+
+1. VPN can hide your IP address, but it won’t protect you from gathering other data. Nevertheless, VPN encrypts your traffic, which is helpful if you evade ICPs’, hackers’ or government surveillance
+
+2. Incognito mode in your browser has no impact on fingerprinting. At the same time, it’s relevant if you share your device with someone else, because incognito mode clears your browsing history and deletes cookies.

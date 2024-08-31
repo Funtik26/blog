@@ -1,39 +1,43 @@
+/** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: "Vlada Rusina's technical blog",
+  title: "Vlada Rusina's blog",
   author: 'Vlada Rusina',
   headerTitle: 'VladaRusina.com',
-  description: "Vlada Rusina's technical blog",
+  description: "Vlada Rusina's blog",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://vladarusina.com',
   siteRepo: 'https://github.com/Funtik26/blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
+  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'hello@vladarusina.com',
   github: 'https://github.com/Funtik26',
-  twitter: 'https://twitter.com/vladarusina',
-  facebook: 'https://facebook.com/',
+  twitter: 'https://x.com/vladarusina',
+  facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
+  threads: 'https://www.threads.net',
+  instagram: 'https://www.instagram.com',
   locale: 'en-US',
+  // set to true if you want a navbar fixed to the top
+  stickyNav: false,
   analytics: {
-    // If you want to use an analytics provider you have to add it to the
-    // content security policy in the `next.config.js` file.
-    // supports plausible, simpleAnalytics, umami or googleAnalytics
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
-    simpleAnalytics: false, // true or false
-    umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
-    posthogAnalyticsId: '', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
+    umamiAnalytics: {
+      // We use an env variable for this site to avoid other users cloning our analytics ID
+      umamiWebsiteId: process.env.NEXT_UMAMI_ID, // e.g. 123e4567-e89b-12d3-a456-426614174000
+      // You may also need to overwrite the script if you're storing data in the US - ex:
+      // src: 'https://us.umami.is/script.js'
+      // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
+    },
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
     provider: 'buttondown',
   },
-  comment: {
-    // If you want to use a commenting system other than giscus you have to add it to the
+  comments: {
+    // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
@@ -52,17 +56,29 @@ const siteMetadata = {
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
       theme: 'light',
-      // Place the comment box above the comments. options: bottom, top
-      inputPosition: 'bottom',
-      // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc
-      lang: 'en',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
+      // This corresponds to the `data-lang="en"` in giscus's configurations
+      lang: 'en',
     },
+  },
+  search: {
+    provider: 'kbar', // kbar or algolia
+    kbarConfig: {
+      searchDocumentsPath: `${process.env.BASE_PATH || ''}/search.json`, // path to load documents to search
+    },
+    // provider: 'algolia',
+    // algoliaConfig: {
+    //   // The application ID provided by Algolia
+    //   appId: 'R2IYF7ETH7',
+    //   // Public API key: it is safe to commit it
+    //   apiKey: '599cec31baffa4868cae4e79f180729b',
+    //   indexName: 'docsearch',
+    // },
   },
 }
 
