@@ -2584,12 +2584,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:14.2.3":
-  version: 14.2.3
-  resolution: "@next/bundle-analyzer@npm:14.2.3"
+"@next/bundle-analyzer@npm:15.0.1":
+  version: 15.0.1
+  resolution: "@next/bundle-analyzer@npm:15.0.1"
   dependencies:
     webpack-bundle-analyzer: "npm:4.10.1"
-  checksum: 10/34355cd5e28b02aba8179babd5ffd9c7f275c3fddeb16895c3f4fcbc3333c26fc6991dcb6488e26a7eb55516118ad9f53d25c916ea263d06beda417af7a06179
+  checksum: 10/0258a15496b5c17e8d7017ae77f368c4e60050676d2aee87341b3b7d7119dc1cb1d8c5d3f64562cd56d9aec728df5503452f9aa35bb99dbbba0fd58d8f4964f4
   languageName: node
   linkType: hard
 
@@ -9979,9 +9979,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rehype-katex@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "rehype-katex@npm:7.0.0"
+"rehype-katex@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "rehype-katex@npm:7.0.1"
   dependencies:
     "@types/hast": "npm:^3.0.0"
     "@types/katex": "npm:^0.16.0"
@@ -9990,7 +9990,7 @@ __metadata:
     katex: "npm:^0.16.0"
     unist-util-visit-parents: "npm:^6.0.0"
     vfile: "npm:^6.0.0"
-  checksum: 10/7f20fc25cedc0dc085c06ed2e460f7c2471fd8e54b2d00f5a98100d5cf6ebce3fa6d47ab1247a0021f1d152be1da074ada10fdcfbf3e63f6e3b4bc5b0604195c
+  checksum: 10/8753ff2ade6bd031d36f552201e01680f54a60b384a0dfc6e2f65d86ff0bbdfdd344b452e7622d2ae1dbec859630bda467492a9361b3dc115468386dd075ad98
   languageName: node
   linkType: hard
 
@@ -11299,7 +11299,7 @@ __metadata:
   resolution: "tailwind-nextjs-starter-blog@workspace:."
   dependencies:
     "@headlessui/react": "npm:1.7.19"
-    "@next/bundle-analyzer": "npm:14.2.3"
+    "@next/bundle-analyzer": "npm:15.0.1"
     "@svgr/webpack": "npm:^8.0.1"
     "@tailwindcss/forms": "npm:^0.5.7"
     "@tailwindcss/typography": "npm:^0.5.12"
@@ -11334,7 +11334,7 @@ __metadata:
     reading-time: "npm:1.5.0"
     rehype-autolink-headings: "npm:^7.1.0"
     rehype-citation: "npm:^2.0.0"
-    rehype-katex: "npm:^7.0.0"
+    rehype-katex: "npm:^7.0.1"
     rehype-preset-minify: "npm:7.0.0"
     rehype-prism-plus: "npm:^2.0.0"
     rehype-slug: "npm:^6.0.0"
