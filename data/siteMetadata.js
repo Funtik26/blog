@@ -15,6 +15,7 @@ const siteMetadata = {
   github: 'https://github.com/Funtik26',
   instagram: 'https://www.instagram.com/vladarusina',
   medium: 'https://medium.com',
+  bluesky: 'https://bsky.app/',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
