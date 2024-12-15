@@ -9,9 +9,7 @@ import { sortPosts } from 'pliny/utils/contentlayer.js'
 import fs from 'fs'
 const tagData = (() => {
   try {
-    return JSON.parse(
-      fs.readFileSync(new URL('../app/tag-data.json', import.meta.url), 'utf-8')
-    )
+    return JSON.parse(fs.readFileSync(new URL('../app/tag-data.json', import.meta.url), 'utf-8'))
   } catch (error) {
     console.error('Failed to read tag data:', error)
     return {}

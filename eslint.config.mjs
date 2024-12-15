@@ -71,9 +71,10 @@ export default [
         'varsIgnorePattern': '^_',
       }],
       'react/no-unescaped-entities': 'off',
-      '@typescript-eslint/explicit-module-boundary-types': ['error', {
+/*      '@typescript-eslint/explicit-module-boundary-types': ['error', {
         'allowArgumentsExplicitlyTypedAsAny': true,
-      }],
+      }],*/
+      '@typescript-eslint/explicit-module-boundary-types': 'off',
       '@typescript-eslint/no-var-requires': 'error',
       '@typescript-eslint/ban-ts-comment': ['error', {
         'ts-expect-error': 'allow-with-description',
