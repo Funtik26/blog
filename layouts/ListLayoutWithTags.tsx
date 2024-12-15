@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 'use client'
 
 import { usePathname } from 'next/navigation'
@@ -100,7 +99,7 @@ export default function ListLayoutWithTags({
                 {sortedTags.map((t) => {
                   return (
                     <li key={t} className="my-3">
-                      {pathname.split('/tags/')[1] === slug(t) ? (
+                      {decodeURI(pathname.split('/tags/')[1]) === slug(t) ? (
                         <h3 className="inline px-3 py-2 text-sm font-bold uppercase text-primary-500">
                           {`${t} (${tagCounts[t]})`}
                         </h3>

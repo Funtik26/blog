@@ -18,6 +18,7 @@ import {
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeKatex from 'rehype-katex'
+import rehypeKatexNoTranslate from 'rehype-katex-notranslate'
 import rehypeCitation from 'rehype-citation'
 import rehypePrismPlus from 'rehype-prism-plus'
 import rehypePresetMinify from 'rehype-preset-minify'
@@ -54,7 +55,7 @@ const computedFields: ComputedFields = {
     type: 'string',
     resolve: (doc) => doc._raw.sourceFilePath,
   },
-  toc: { type: 'string', resolve: (doc) => extractTocHeadings(doc.body.raw) },
+  toc: { type: 'json', resolve: (doc) => extractTocHeadings(doc.body.raw) },
 }
 
 /**
@@ -136,6 +137,7 @@ export const Authors = defineDocumentType(() => ({
     company: { type: 'string' },
     email: { type: 'string' },
     twitter: { type: 'string' },
+    bluesky: { type: 'string' },
     linkedin: { type: 'string' },
     github: { type: 'string' },
     layout: { type: 'string' },
@@ -169,6 +171,7 @@ export default makeSource({
         },
       ],
       rehypeKatex,
+      rehypeKatexNoTranslate,
       [rehypeCitation, { path: path.join(root, 'data') }],
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
       rehypePresetMinify,
