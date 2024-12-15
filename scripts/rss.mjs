@@ -3,9 +3,13 @@ import path from 'path'
 import { slug } from 'github-slugger'
 import { escape } from 'pliny/utils/htmlEscaper.js'
 import siteMetadata from '../data/siteMetadata.js'
-import tagData from '../app/tag-data.json' assert { type: 'json' }
 import { allBlogs } from '../.contentlayer/generated/index.mjs'
 import { sortPosts } from 'pliny/utils/contentlayer.js'
+
+import fs from 'fs'
+const tagData = JSON.parse(
+  fs.readFileSync(new URL('../app/tag-data.json', import.meta.url), 'utf-8')
+)
 
 const outputFolder = process.env.EXPORT ? 'out' : 'public'
 
