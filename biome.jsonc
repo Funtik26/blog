@@ -1,12 +1,12 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "formatter": {
-    "enabled": false
+    "enabled": true
   },
   "linter": {
-    "enabled": false
+    "enabled": true
   },
   "organizeImports": {
-    "enabled": false
+    "enabled": true
   }
 }

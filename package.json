@@ -8,8 +8,9 @@
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
+    "lint": "yarn lint:next && yarn lint:biome",
     "lint:next": "next lint --fix --dir pages --dir app --dir components --dir lib --dir layouts --dir scripts",
-    "lint:biome": "yarn biome lint {pages,components,lib,layouts,scripts}",
+    "lint:biome": "yarn biome lint --write --unsafe {pages,components,lib,layouts,scripts}",
     "prepare": "husky"
   },
   "dependencies": {

@@ -89,6 +89,18 @@ module.exports = () => {
         },
       ]
     },
+    experimental: {
+      // typedRoutes: true,
+      // useLightningcss does not work with postcss plugins // useLightningcss: true,
+    },
+    turbopack: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
     webpack: (config, options) => {
       config.module.rules.push({
         test: /\.svg$/,
