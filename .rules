@@ -1,0 +1,17 @@
+This is a NextJS blog project. This project is deployed to Vercel.
+
+
+## Building
+
+ 1. Enable stable version of yarn by running in terminal `yarn set version stable`.
+ 2. Install project dependencies by running in terminal `yarn install`.
+ 3. Use `yarn build` command to build the project, you are forbidden to fallback to npm.
+
+# Checking
+
+- After the work, it is essential to check the success of the build.
+- Use `yarn build` command to build the project.
+  - Ensure that the build process completes without errors.
+  - If the build fails, check the error messages and fix the issues before proceeding.
+  - The build command should be run in the root directory of the project.
+- Run `yarn lint` and fix all linting issues.
