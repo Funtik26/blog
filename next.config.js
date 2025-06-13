@@ -67,6 +67,7 @@ module.exports = () => {
     output,
     basePath,
     reactStrictMode: true,
+    trailingSlash: false,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
@@ -87,16 +88,6 @@ module.exports = () => {
           headers: securityHeaders,
         },
       ]
-    },
-    experimental: {
-      turbo: {
-        rules: {
-          '*.svg': {
-            loaders: ['@svgr/webpack'],
-            as: '*.js',
-          },
-        },
-      },
     },
     webpack: (config, options) => {
       config.module.rules.push({

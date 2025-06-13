@@ -3,18 +3,9 @@ import path from 'path'
 import { slug } from 'github-slugger'
 import { escape } from 'pliny/utils/htmlEscaper.js'
 import siteMetadata from '../data/siteMetadata.js'
+import tagData from '../app/tag-data.json' with { type: 'json' }
 import { allBlogs } from '../.contentlayer/generated/index.mjs'
 import { sortPosts } from 'pliny/utils/contentlayer.js'
-
-import fs from 'fs'
-const tagData = (() => {
-  try {
-    return JSON.parse(fs.readFileSync(new URL('../app/tag-data.json', import.meta.url), 'utf-8'))
-  } catch (error) {
-    console.error('Failed to read tag data:', error)
-    return {}
-  }
-})()
 
 const outputFolder = process.env.EXPORT ? 'out' : 'public'
 
@@ -51,7 +42,6 @@ async function generateRSS(config, allBlogs, page = 'feed.xml') {
   // RSS for blog post
   if (publishPosts.length > 0) {
     const rss = generateRss(config, sortPosts(publishPosts))
-    mkdirSync(outputFolder, { recursive: true })
     writeFileSync(`./${outputFolder}/${page}`, rss)
   }
 

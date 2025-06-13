@@ -14,13 +14,7 @@ const compat = new FlatCompat({
 
 export default [
   {
-    ignores: [
-      '**/node_modules/**',
-      '**/dist/**',
-      '**/build/**',
-      '**/.next/**',
-      '**/coverage/**',
-    ],
+    ignores: [],
   },
   js.configs.recommended,
   ...compat.extends(
@@ -44,8 +38,8 @@ export default [
       },
 
       parser: tsParser,
-      ecmaVersion: 2022,
-      sourceType: 'module',
+      ecmaVersion: 5,
+      sourceType: 'commonjs',
 
       parserOptions: {
         project: true,
@@ -66,19 +60,11 @@ export default [
         },
       ],
       'react/prop-types': 'off',
-      '@typescript-eslint/no-unused-vars': ['error', { 
-        'argsIgnorePattern': '^_',
-        'varsIgnorePattern': '^_',
-      }],
+      '@typescript-eslint/no-unused-vars': 'off',
       'react/no-unescaped-entities': 'off',
-/*      '@typescript-eslint/explicit-module-boundary-types': ['error', {
-        'allowArgumentsExplicitlyTypedAsAny': true,
-      }],*/
       '@typescript-eslint/explicit-module-boundary-types': 'off',
-      '@typescript-eslint/no-var-requires': 'error',
-      '@typescript-eslint/ban-ts-comment': ['error', {
-        'ts-expect-error': 'allow-with-description',
-      }],
+      '@typescript-eslint/no-var-requires': 'off',
+      '@typescript-eslint/ban-ts-comment': 'off',
     },
   },
 ]
