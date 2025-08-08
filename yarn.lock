@@ -6226,9 +6226,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^5.5.0":
-  version: 5.5.0
-  resolution: "eslint-plugin-prettier@npm:5.5.0"
+"eslint-plugin-prettier@npm:^5.5.4":
+  version: 5.5.4
+  resolution: "eslint-plugin-prettier@npm:5.5.4"
   dependencies:
     prettier-linter-helpers: "npm:^1.0.0"
     synckit: "npm:^0.11.7"
@@ -6242,7 +6242,7 @@ __metadata:
       optional: true
     eslint-config-prettier:
       optional: true
-  checksum: 10/83210819211ad98f305b719352c151794c8c6403d3888c0f8cca76429bf91235753c15d060eb8097d3872e85e9224b8a46280105e468d8c578e2ca9f253bfa57
+  checksum: 10/5e39e3b7046d4ba0e1111cc2048630ee9d0aa5d5bb00d6230bef56893fdae37cbe2261babfb26db350cc2ad517c81d283b3f8b04cfee4e5aef7cd4bee72f90de
   languageName: node
   linkType: hard
 
@@ -11998,7 +11998,7 @@ __metadata:
     eslint: "npm:^9.29.0"
     eslint-config-next: "npm:15.3.4"
     eslint-config-prettier: "npm:^10.1.5"
-    eslint-plugin-prettier: "npm:^5.5.0"
+    eslint-plugin-prettier: "npm:^5.5.4"
     github-slugger: "npm:^2.0.0"
     globals: "npm:^16.2.0"
     gray-matter: "npm:^4.0.3"
