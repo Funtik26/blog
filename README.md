@@ -223,7 +223,7 @@ Edit the layout in `app` or content in `data`. With live reloading, the pages au
 
 `data/headerNavLinks.js` - navigation links.
 
-`data/logo.svg` - replace with your own logo.
+`components/Logo.tsx` - update the inline SVG or swap in your own component for the site logo.
 
 `data/blog` - replace with your own blog posts.
 
